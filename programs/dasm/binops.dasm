@@ -1,0 +1,25 @@
+# Lovingly crafted by the robots of CIS 211
+# 2022-05-08 21:18:10.536575 from programs/mal/binops.mal
+#
+       LOAD       r14,r0,r15[17] #const_7  
+       STORE       r14,r0,r15[17] #var_x  
+       LOAD       r14,r0,r15[16] #var_x  
+       LOAD       r13,r0,r15[14] #const_7  
+   ADD  r14,r14,r13
+       STORE       r14,r0,r15[14] #var_y  
+       LOAD       r14,r0,r15[12] #var_x  
+       LOAD       r13,r0,r15[12] #var_y  
+   MUL  r14,r14,r13
+       STORE       r14,r0,r15[11] #var_z  
+       LOAD       r14,r0,r15[8] #var_x  
+       LOAD       r13,r0,r15[8] #var_y  
+       LOAD       r12,r0,r15[8] #var_z  
+   DIV  r13,r13,r12
+   SUB  r14,r14,r13
+       STORE       r14,r0,r15[6] #var_q  
+	HALT  r0,r0,r0
+const_7:  DATA 7
+var_x:  DATA 0
+var_y:  DATA 0
+var_z:  DATA 0
+var_q:  DATA 0

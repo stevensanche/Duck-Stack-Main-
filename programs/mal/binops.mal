@@ -1,0 +1,7 @@
+# Test code generation for a sequence
+# of binary operations
+#
+x = 7;
+y = x + 7;
+z = x * y;
+q = x - y / z;

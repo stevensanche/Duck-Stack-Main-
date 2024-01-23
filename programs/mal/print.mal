@@ -1,0 +1,4 @@
+#  Simple test to print a computed value
+x = 7;
+y = 8;
+print x + y;  # Should print 15

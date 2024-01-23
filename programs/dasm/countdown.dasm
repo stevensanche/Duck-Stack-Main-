@@ -1,0 +1,23 @@
+# Lovingly crafted by the robots of CIS 211
+# 2022-05-08 21:18:10.566447 from programs/mal/countdown.mal
+#
+       LOAD       r14,r0,r15[16] #const_10  
+       STORE       r14,r0,r15[16] #var_x  
+while_do_1:
+       LOAD       r14,r0,r15[15] #var_x  
+       LOAD       r13,r0,r15[11] #const_0  
+   SUB  r0,r14,r13
+      ADD/M    r15,r0,r15[8] #od_2  #>=
+       LOAD       r14,r0,r15[11] #var_x  
+   STORE  r14,r0,r0[511]
+       LOAD       r14,r0,r15[9] #var_x  
+       LOAD       r13,r0,r15[6] #const_1  
+   SUB  r14,r14,r13
+       STORE       r14,r0,r15[6] #var_x  
+      ADD       r15,r0,r15[-10] #while_do_1  
+od_2:
+	HALT  r0,r0,r0
+const_0:  DATA 0
+const_1:  DATA 1
+const_10:  DATA 10
+var_x:  DATA 0

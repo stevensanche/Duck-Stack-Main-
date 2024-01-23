@@ -1,0 +1,15 @@
+# In this program, the first input is a value to "watch for"
+# in a sequence.  In the rest of the sequence, we count
+# occurrences of that value.  The sequence ends with 0.
+# We print the count of occurrences of that value.
+#
+watch = read;
+count = 0;
+observe = read;
+while  observe != 0 do
+    if watch == observe then
+       count = count + 1;
+    fi;
+    observe = read;
+od;
+print count;

@@ -1,0 +1,6 @@
+# A tiny program to test code
+# generation for the Seq expression class.
+#
+x = 7;
+y = x;
+z = y;

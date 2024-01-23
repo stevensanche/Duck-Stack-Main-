@@ -1,0 +1,28 @@
+# Lovingly crafted by the robots of CIS 211
+# 2022-05-08 21:18:10.596602 from programs/mal/fact.mal
+#
+   LOAD  r14,r0,r0[510]
+       STORE       r14,r0,r15[20] #var_x  
+       LOAD       r14,r0,r15[18] #const_1  
+       STORE       r14,r0,r15[19] #var_fact  
+while_do_1:
+       LOAD       r14,r0,r15[17] #var_x  
+       LOAD       r13,r0,r15[15] #const_1  
+   SUB  r0,r14,r13
+      ADD/ZM    r15,r0,r15[10] #od_2  #>
+       LOAD       r14,r0,r15[14] #var_fact  
+       LOAD       r13,r0,r15[12] #var_x  
+   MUL  r14,r14,r13
+       STORE       r14,r0,r15[11] #var_fact  
+       LOAD       r14,r0,r15[9] #var_x  
+       LOAD       r13,r0,r15[7] #const_1  
+   SUB  r14,r14,r13
+       STORE       r14,r0,r15[6] #var_x  
+      ADD       r15,r0,r15[-12] #while_do_1  
+od_2:
+       LOAD       r14,r0,r15[5] #var_fact  
+   STORE  r14,r0,r0[511]
+	HALT  r0,r0,r0
+const_1:  DATA 1
+var_x:  DATA 0
+var_fact:  DATA 0

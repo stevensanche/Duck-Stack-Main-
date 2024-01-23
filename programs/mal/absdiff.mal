@@ -1,0 +1,11 @@
+# Absolute difference
+# (test case for Abs and Neg)
+# Prints the absolute difference between x and y,
+# and -1 * that value.
+#
+x = read;
+y = read;
+absdiff = @(x - y);
+neg = ~absdiff;
+print absdiff;
+print neg;

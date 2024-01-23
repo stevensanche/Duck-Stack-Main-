@@ -1,0 +1,14 @@
+# Lovingly crafted by the robots of CIS 211
+# 2022-05-08 21:18:10.797656 from programs/mal/seq.mal
+#
+    LOAD r14,const_7
+   STORE  r14,var_x
+    LOAD r14,var_x
+   STORE  r14,var_y
+    LOAD r14,var_y
+   STORE  r14,var_z
+	HALT  r0,r0,r0
+const_7:  DATA 7
+var_x:  DATA 0
+var_y:  DATA 0
+var_z:  DATA 0
